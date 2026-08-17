@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use this battery, data, or code, please cite the paper."
+title: "machine-habitus: study artifacts for Measuring Machine Habitus"
+authors:
+  - family-names: Toeda
+    given-names: Taiko
+    affiliation: MOBIUS LLC
+    orcid: "https://orcid.org/0009-0001-7267-0201"
+license: AGPL-3.0-or-later
+preferred-citation:
+  type: article
+  title: "Measuring Machine Habitus: A Pre-Registered Multiple Correspondence Analysis of LLM Disposition Space"
+  authors:
+    - family-names: Toeda
+      given-names: Taiko
+      affiliation: MOBIUS LLC
+  year: 2026
+  doi: 10.5281/zenodo.21982393

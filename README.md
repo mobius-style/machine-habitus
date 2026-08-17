@@ -1,6 +1,6 @@
 # machine-habitus — study artifacts
 
-Artifacts for **"Measuring Machine Habitus: A Pre-Registered Multiple Correspondence Analysis of LLM Disposition Space"** (Toeda, 2026; DOI added on Zenodo publication).
+Artifacts for **"Measuring Machine Habitus: A Pre-Registered Multiple Correspondence Analysis of LLM Disposition Space"** (Toeda, 2026; DOI 10.5281/zenodo.21982393, live on Zenodo publication).
 
 A pre-registered, hash-frozen measurement study: 120 forced-choice dilemmas (no correct answers), 7 LLM subjects × 5 sessions, multiple correspondence analysis. One confirmed hypothesis (session-stable, model-specific disposition; Holm p = 0.0004), three diagnosed nulls, one protocol breach caught by adversarial model review and remediated under the frozen rule.
 
