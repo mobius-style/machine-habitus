@@ -1,0 +1,90 @@
+{
+ "holm_corrected": {
+  "H1": 0.00039996000399960006,
+  "H2": 0.7256371814092953,
+  "H1b": 0.7256371814092953,
+  "H3": 0.7256371814092953
+ },
+ "H1_p_report": "p <= 1/10001 (0 exceedances in 10,000 permutation draws)",
+ "split_domains_A(build/candor/delegation/resource)": {
+  "ratio": 1.8749866211807051,
+  "p": 0.0001999600079984003
+ },
+ "split_domains_B(reversibility/risk/rules/verification)": {
+  "ratio": 2.0138913638387628,
+  "p": 0.0001999600079984003
+ },
+ "cross_domain_geometry_spearman": {
+  "rho": 0.39350649350649347,
+  "p": 0.11277744451109778
+ },
+ "per_session_nr": {
+  "claude-haiku_s1": 0,
+  "claude-haiku_s2": 0,
+  "claude-haiku_s3": 0,
+  "claude-haiku_s4": 1,
+  "claude-haiku_s5": 2,
+  "claude-sonnet_s1": 0,
+  "claude-sonnet_s2": 0,
+  "claude-sonnet_s3": 0,
+  "claude-sonnet_s4": 0,
+  "claude-sonnet_s5": 0,
+  "deepseek-v4_s2": 0,
+  "deepseek-v4_s3": 0,
+  "deepseek-v4_s4": 31,
+  "deepseek-v4_s5": 40,
+  "deepseek-v4_s9": 46,
+  "gemma4-12b_s1": 2,
+  "gemma4-12b_s2": 2,
+  "gemma4-12b_s3": 4,
+  "gemma4-12b_s4": 2,
+  "gemma4-12b_s5": 5,
+  "gemma4-26b_s1": 15,
+  "gemma4-26b_s2": 3,
+  "gemma4-26b_s3": 3,
+  "gemma4-26b_s4": 33,
+  "gemma4-26b_s5": 1,
+  "gpt-oss-120b_s1": 0,
+  "gpt-oss-120b_s2": 0,
+  "gpt-oss-120b_s3": 11,
+  "gpt-oss-120b_s4": 0,
+  "gpt-oss-120b_s5": 1,
+  "qwen3.6-27b_s1": 5,
+  "qwen3.6-27b_s2": 0,
+  "qwen3.6-27b_s3": 4,
+  "qwen3.6-27b_s4": 19,
+  "qwen3.6-27b_s5": 3
+ },
+ "section52_corrected": {
+  "withins": {
+   "claude-haiku": 0.12715843784547162,
+   "claude-sonnet": 0.09704693605868786,
+   "deepseek-v4": 0.1723762781263225,
+   "gemma4-12b": 0.13308745203462996,
+   "gemma4-26b": 0.5402625802038321,
+   "gpt-oss-120b": 0.3602900834330302,
+   "qwen3.6-27b": 0.7724293841870338
+  },
+  "gemma_pair_centroid": 0.572
+ },
+ "agreement_train": {
+  "within": {
+   "claude-haiku": 0.712340658827921,
+   "claude-sonnet": 0.7239583333333334,
+   "deepseek-v4": 0.7022721774193548,
+   "gemma4-12b": 0.664266805363311,
+   "gemma4-26b": 0.6089174820029998,
+   "gpt-oss-120b": 0.5977129404393337,
+   "qwen3.6-27b": 0.543638213261403
+  },
+  "between": 0.527920379890511
+ },
+ "H1b_midrank_spearman": -0.44136741475237473,
+ "phi_zero_imputations": "9 of 15",
+ "layer_robustness_neutral_only_ratio": 2.6516119678332646,
+ "session_accounting": {
+  "collected": 39,
+  "excluded": 4,
+  "valid": 35
+ }
+}

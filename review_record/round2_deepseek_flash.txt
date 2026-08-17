@@ -1,0 +1,5 @@
+VERDICT: SURVIVES
+ISSUES:
+- MINOR: H3 remains non-interpretable despite disclosure; the reported ρ = 0.08 should be explicitly labeled as derived from an invalid procedure, not merely “not interpretable” in prose.
+- MINOR: H1b/H3 demotion is handled correctly, but the model-level exit rule gap could have been pre-specified; current fix is defensible, not ideal.
+- MINOR: Transposability is now explicitly exploratory and appropriately graded; no remaining major validity threat.

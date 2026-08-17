@@ -1,0 +1,4 @@
+FINAL GATE (2026-08-18): MANUSCRIPT.md v0.4
+Judges (3 families): claude-opus (file access) / gpt-oss-120b / deepseek-v4
+R1 (v0.1): 3/3 REFUTED  ->  R2 (v0.2): gpt-oss SURVIVES, deepseek SURVIVES, opus REFUTED (stale numerics)  ->  R3+delta (v0.3->v0.4): opus SURVIVES with recomputation ledger fully green.
+RESULT: 3/3 SURVIVES. Gate passed per adversarial review standard (>=2/3 required).

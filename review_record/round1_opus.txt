@@ -1,0 +1,7 @@
+VERDICT: REFUTED
+1. MAJOR - Frozen exclusion rule violated: deepseek-v4 s1 nr_count=81/120=67.5% admitted despite PREREG §4; §4.1 misreports data quality. Demotes H1 unless re-collected per rule.
+2. MAJOR - §4.1 NR attribution contradicts EXCLUSION_LOG and §5.3.
+3. MAJOR - Descriptive claims contradict results_main.json (tightest cluster; inertia 15.8% vs 14.8%; gemma separation vs H3 table).
+4. MAJOR - "Domain-transposable" asserted but never tested; silhouette 0.288 is weak-to-moderate, "strongly supported" overclaims; H1 alone congruent with fingerprinting literature.
+5. MAJOR/MINOR - Undisclosed implementation defects: H3 phi imputation (10/15 pairs), Holm without monotonicity, silhouette CI dependence, p-floor reporting, missing model snapshots/temps/NR table/power analysis.
+Note: FREEZE_RECORD hashes verify; breach was in data admission, not code.

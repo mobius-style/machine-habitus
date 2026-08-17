@@ -1,0 +1,10 @@
+VERDICT: SURVIVES  
+
+ISSUES:  
+1. **MAJOR – Holm monotonicity still inconsistent in primary results JSON** – the `holm` object reports non‑monotone adjusted p‑values (H1b = 0.5589 < H2 = 0.7256). The authors disclose a corrected set in `holm_corrected` and claim to use it in the manuscript, but the primary result file contradicts this and would mislead readers if taken at face value. *(requires editorial erratum to ensure the published table reflects the corrected values)*.  
+2. **MINOR – Dependence of silhouette‑CI** – the bootstrap CI treats 35 session silhouettes as exchangeable despite intra‑model correlation, potentially under‑estimating uncertainty. The limitation is noted, but the CI is still presented as a precision measure.  
+3. **MINOR – Language‑specificity** – the battery is only in Japanese; claims about “LLM habitus” are therefore limited to models’ Japanese‑language behavior and may not generalize.  
+4. **MINOR – Small model sample** – with only seven models the study lacks power for many exploratory hypotheses; null results (H2, H1b, H3) are inconclusive.  
+5. **MINOR – Fixed two‑dimensional projection** – pre‑registered analysis restricts inference to the top‑2 MCA dimensions (14.7 % inertia). While disclosed, this limits the representativeness of the measured space.  
+
+**Round‑1 resolution:** All previously identified MAJOR issues (data‑admission violation, mis‑attributed NR, numeric inertia errors, untested transposability, Holm step‑down defect, undisclosed H3 imputation) have been corrected or fully disclosed in v0.2. No new fatal flaws were found.

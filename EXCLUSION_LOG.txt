@@ -1,0 +1,2 @@
+2026-08-18 deepseek-v4 judge sessions s1-s6: 100% NR (empty content; reasoning consumed budget). Excluded per PREREG §4; model exits judge-dependent analyses (H1b/H3). Battery sessions s4(26%),s5(33%) retained (below 50% threshold).
+2026-08-18 PREREG §4 executed on battery: deepseek-v4 s1 (NR=81, 67.5%) excluded — was erroneously admitted in first analysis run (caught by adversarial review, judge=claude-opus). Replacement chain: s6(80)→excluded, s7(120)→excluded, s8(80)→excluded, s9(46)→retained. Valid deepseek battery sessions: s2,s3,s4,s5,s9.
