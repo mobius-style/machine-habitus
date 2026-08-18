@@ -1,1 +1,2 @@
 FROZEN 2026-08-17T23:53:53+09:00 PREREG.md sha256=689b65f4e4743857bf700bb9e482c35a813dc0cf9ab890b0260d58cb7ace9e79 battery=9ed083fe2480627c judge=fc5bdc0b97ca4634 analyze=34cb24c109cedf47 runmain=c1c4a51a079dc9fb runjudge=358039894508396c
+ADDENDUM 2026-08-18T17:31:13+09:00 assemble_claude.py sha256=94aa5cced7f027635683e7cbf54c9ba3507a37bd4c7c47bec03281d6638229c7 (post-freeze disclosure: Claude-subject assembly; prompts/mappings from frozen run_main.py claude-prompts mode; independent audit found 0/1,197 parsed Claude answer lines out-of-prompt)
